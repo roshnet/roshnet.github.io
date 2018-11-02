@@ -7,7 +7,7 @@ Web series take a large part of my time, and so does programming.
 
 ### Python and me
 
-Python was the third language I had the fortune of learning. Driven by its' simplicity, I soon realised that I was able to spend couple of couple of couple of hours in just a couple of hours. Such was the craze I had (and still have) for the language.
+Python was the third language I had the fortune of learning. Driven by its' simplicity and capabilities, I soon realised that I was able to spend couple of couple of couple of hours in just a couple of hours. Such was the craze I had (and still have) for the language.
 
 ```markdown
  `# My initial code looked like`
