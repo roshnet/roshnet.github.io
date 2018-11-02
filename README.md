@@ -1,7 +1,7 @@
 ## Welcome to my space!
 
 Hey there!
-This page contains mostly about what I do, and like to do.
+This page contains mostly me and the stuff that keeps me engaged.
 Web series take a large part of my time, and so does programming.
 
 
@@ -39,10 +39,10 @@ I love it when people offer me ideas, or modify mine.
 Reach out to me, either at reprogram[at]yahoo[dot]com or reprogram46[at]gmail[dot]com .
 
 ### Contact Me
-If somehow the mails go unanswered, call/text on [this number](+91-8266966965).
+If somehow the mails go unanswered, call/text [here](+91-8266966965).
 
 
-- Roshan Sharma
+Roshan Sharma
 Undergrad in Electronics,
 Zakir Hussain College of Engineering and Technology,
 Aligarh Muslim University
