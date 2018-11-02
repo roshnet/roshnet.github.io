@@ -1,37 +1,48 @@
-## Welcome to GitHub Pages
+## Welcome to my space!
 
-You can use the [editor on GitHub](https://github.com/roshnet/roshnet.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Hey there!
+This page contains mostly about what I do, and like to do.
+Web series take a large part of my time, and so does programming.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Python and me
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Python was the third language I had the fortune of learning. Driven by its' simplicity, I soon realised that I was able to spend couple of couple of couple of hours in just a couple of hours. Such was the craze I had (and still have) for the language.
 
 ```markdown
-Syntax highlighted code block
+ `# My initial code looked like`
+  variable=5
+  from something import *
+ `# which at the end became`
+ x = 5
+ from something import first_thing
+ from something import second_thing
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+ `# and the list of modifications went on. Hope it still goes the same way.`
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Here's something about the awesome tool I used to create this stuff:
 
 ### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/roshnet/roshnet.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+This site uses the layout and styles from the Jekyll theme I selected in my [repository settings](https://github.com/roshnet/roshnet.github.io/settings).
 
-### Support or Contact
+### Something I Made
+The biggest solo project i did is [this one right here](http://askhfn.000webhostapp.com).
+Took me over a couple of months, the biggest problem being migration.
+Finally, I learnt a LOT from this, especially in web development.
+PS: Do not take me to be a pro :)
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+### One Thing More
+I love it when people offer me ideas, or modify mine.
+Reach out to me, either at reprogram[at]yahoo[dot]com or reprogram46[at]gmail[dot]com .
+
+### Contact Me
+If somehow the mails go unanswered, call/text on [this number](+91-8266966965).
+
+
+- Roshan Sharma
+Undergrad in Electronics,
+Zakir Hussain College of Engineering and Technology,
+Aligarh Muslim University
