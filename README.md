@@ -30,7 +30,7 @@ This site uses the layout and styles from the Jekyll theme I selected in my [rep
 ### Something I Made
 The biggest solo project i did is [this one right here](http://askhfn.000webhostapp.com).
 Took me over a couple of months, the biggest problem being migration.
-Finally, I learnt a LOT from this, especially in web development.
+Finally, I learnt a LOT from this, especially in web development.<br/>
 PS: Do not take me to be a pro :)
 
 
@@ -42,7 +42,7 @@ Reach out to me, either at reprogram[at]yahoo[dot]com or reprogram46[at]gmail[do
 If somehow the mails go unanswered, call/text [here](+91-8266966965).
 
 
-Roshan Sharma
-Undergrad in Electronics,
-Zakir Hussain College of Engineering and Technology,
+Roshan Sharma <br/>
+Undergrad in Electronics,<br/>
+Zakir Hussain College of Engineering and Technology,<br/>
 Aligarh Muslim University
