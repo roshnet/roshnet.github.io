@@ -28,7 +28,7 @@ Here's something about the awesome tool I used to create this stuff:
 This site uses the layout and styles from the Jekyll theme I selected in my [repository settings](https://github.com/roshnet/roshnet.github.io/settings).
 
 ### Something I Made
-The biggest solo project i did is [this one right here](http://askhfn.000webhostapp.com).
+The biggest solo project I did is [this one right here](http://askhfn.000webhostapp.com).
 Took me over a couple of months, the biggest problem being migration.
 Finally, I learnt a LOT from this, especially in web development.<br/>
 PS: Do not take me to be a pro :)
