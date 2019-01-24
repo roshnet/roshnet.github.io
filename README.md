@@ -21,12 +21,6 @@ Python was the third language I had the fortune of learning. Driven by its' simp
  `# and the list of modifications went on. Hope it still goes the same way.`
 ```
 
-Here's something about the awesome tool I used to create this stuff:
-
-### Jekyll Themes
-
-This site uses the layout and styles from the Jekyll theme I selected in my [repository settings](https://github.com/roshnet/roshnet.github.io/settings).
-
 ### Something I Made
 The biggest solo project I did is [this one right here](http://askhfn.000webhostapp.com).
 Took me over a couple of months, the biggest problem being migration.
