@@ -17,7 +17,7 @@ thrilled.
 I mastered the typical noob's way of doing version control, how? Simple. Copy and rename the "project" folder
 to "project-1", and do shit in the main "project" folder. Hmm, smart, right? LOL.
 
-This was the way until I ended up with seniors in my college.
+This was the way until I came across seniors in my college.
 
 Seniors then introduced me to what my friend had been shouting out loud till now - Git.
 
