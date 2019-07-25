@@ -78,7 +78,7 @@ Our team was no exception.
 ![team-selfie](/images/sih-2019/narcodes.jpeg)
 
 <br>
-Meanwhile, a had a code-drink . . .<br>
+Meanwhile, I had a code-drink . . .<br>
 ![code-machine](/images/sih-2019/code-machine.jpeg)
 
 
@@ -109,13 +109,13 @@ Result announcement began, and we were expecting results any second from then.
 
 Finally, with the caption from the anchor - _"the team inspired by Pablo Escobar"_,
 we heard <br>
-<b>our team - Narcodes, finished as the first runner ups</b>. 
-<br>I know for myself that I wasn't
-"that" happy with the results, but still I was satisfactorily happy "with the results".
+<b>our team - Narcodes, finished as the first runner ups</b>.
+<br>I knew for myself that I was happy, but I also felt about doing some extra efforts
+to grab the first place. Anyways, everyone in the team worked really good,
+which is something one can be proud of :)
 
 A coffee mug with the [M.H.R.D.](https://mhrd.gov.in/) tag printed on it, along with
-a couple of certificates, made
-this an achievement worth sharing!
+a couple of certificates, made this an achievement worth sharing!
 
 
 ### End Notes
@@ -151,6 +151,9 @@ The canteen's slogan . . .<br>
 ![quote](/images/sih-2019/quote.jpeg)
 
 
-Alright, so that is it!
+At the end, it was an amazing experience, with such great coders and mentor.
 <br>
-Hope to do some stunning project in (hopefully) SIH-2020 :)
+Also, the services offered by the management during our stay deserve a good
+acknowledgement.
+
+Hope to do another stunning project in (hopefully) SIH-2020 :)
