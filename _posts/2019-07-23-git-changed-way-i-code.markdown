@@ -29,3 +29,20 @@ Next thing you know is there's a ".git" folder in all my projects.
 
 
 Thanks for the read ;)
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+this.page.url = "https://roshnet.github.io/2019/07/23/git-changed-way-i-code.html";
+this.page.identifier = "git-changed-way-i-code";
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://roshnet.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}

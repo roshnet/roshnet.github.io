@@ -158,3 +158,20 @@ Also, the services offered by the management during our stay deserve a good
 acknowledgement.
 
 Hope to do another stunning project in (hopefully) SIH-2020 :)
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+this.page.url = "https://roshnet.github.io/2019/07/23/sih-experience.html";
+this.page.identifier = "sih-experience";
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://roshnet.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
