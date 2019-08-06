@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "An experience at India's biggest hackathon"
+comments: true
 date:   2019-07-23 17:34:47 +0530
 # categories: jekyll update
 ---
