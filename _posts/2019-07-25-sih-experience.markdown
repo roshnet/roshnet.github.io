@@ -9,7 +9,7 @@ date:   2019-07-23 17:34:47 +0530
 After knowing that we had been selected to participate in the [Smart India Hackathon](http://sih.gov.in),
 let's face it - I was not excited.
 
-But, it was when I returned home, when I realised that it was indeed one of the most amazing
+But, it was when I returned home, did I realise that it was indeed one of the most amazing
 events I had experienced.
 
 By the way, here's what we made in 36 hours -
