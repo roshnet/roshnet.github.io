@@ -26,7 +26,7 @@ in Guwahati, Assam.
 We travelled all the way together, but reached there at different times.
 
 Due to logistics, I and [Areeb bhai](https://github.com/iamareebjamal)
-(our mentor, a tech giant and an enormously experienced developer), arrived at the destination
+(our mentor, a tech giant, and an enormously experienced developer), arrived at the destination
 college a couple of hours earlier than the rest of the team.
 We waited there doing the formalities, until we were assigned rooms.
 
@@ -59,7 +59,7 @@ and contributed to the main code repository mentioned above.
 Our team leader, [Prateek bhai](http://geekyboy.me), explained the reviewers in the check-in
 sessions well about what had we built up yet.
 
-We coded the whole day, taking two-three small breaks till midnight.
+We coded the whole day, taking two to three small breaks until midnight.
 By midnight, we had almost a day remaining, and a lot needed to be done. This is when
 things sped up.
 
@@ -67,9 +67,10 @@ things sped up.
 I remember how our mentor offered me the solution of a `rebase` to cleanly pull changes
 from `upstream/master` when I was a few commits ahead of it. Before this, I used to create a
 new branch `tmp` right from the commit upto which `origin/master` and `upstream/master` were
-the same, and do some merges and branch-renames to simulate what I needed. This seemed too much of an overkill in practice, when I found that the solution was a simple -
+the same, and do some merges and branch-renames to simulate what I needed.
+This seemed too much of an overkill in practice, when I found that the solution was as simple as -
 `git pull upstream master --rebase`.
-Also, the project made me comfortable in using the `numpy` and `pandas` data science libraries.
+Also, the project made me proficient with the `numpy` and `pandas` data science libraries.
 
 Later that night, we were offered drinks and snacks from the organisers.
 That break was a relieving one, and that's when everyone at the hackathon was taking
@@ -86,8 +87,8 @@ Meanwhile, I had a code-drink . . .<br>
 There were also a Zomba dance session which happened later, unfortunately of which
 there were no pictures captured.
 
-At 4 a.m. the next morning, it was chilling cold outside, and I was out of energy
-the moment I sat idle, and needless to mention,
+At 4 a.m. the next morning, it was chilling with a cool breeze outside, and I was
+out of energy the moment I sat idle, and needless to mention,
 I needed a pitstop.
 
 I went out for a break, and ended up taking a nap in my room.
