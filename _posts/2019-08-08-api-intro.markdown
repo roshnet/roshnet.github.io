@@ -38,7 +38,7 @@ and it's time to use it as a service.
 
 Now, a trivial approach to this can be - I upload the code online,
 and whoever interested can clone it, install dependencies,
-and run it on their system. Perfect, and simple enough.
+and run it on their system. Plain, perfect, simple.
 
 However, there are some issues with this.
 
@@ -63,11 +63,11 @@ did exactly what the user wanted.
 
 To exemplify, let's consider a super simple case.
 
-You got one simple app - it performs simple arithmetic ops on numbers. So, we're talking about
+You got one app - it performs basic arithmetic ops on numbers. So, we're talking about
 a math API basically.
 Again, this could be anything else, like a function that just checks if your username
 follows a certain pattern or not. If that's too much for an example, we'll stick to our
-math API for now. But, believe me, creating one like that really is simple, once we get
+math API for now. But, believe me, creating one like that really is easy, once we get
 the idea of how things work.
 
 <br>
@@ -104,7 +104,8 @@ In order to perform an addition, our user needs to access -
 #### Sending back output
 When the function runs it's logic, it needs to return the output back to
 who called it. Here, it's not as simple as just a return statement. But,
-it's not hard either. It depends on the framework and the language you're using.
+it's not hard either. It really depends on the framework and the language
+you're using.
 
 The standard output format is JSON. Easy to understand, and even easier to implement.
 
