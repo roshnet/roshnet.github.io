@@ -1,0 +1,248 @@
+---
+layout: post
+title:  "A super-quick intro to APIs"
+comments: true
+date:   2019-08-08
+# categories: jekyll update
+---
+
+<style>
+.note {
+    font-size: 85%;
+    padding: 10px 20px;
+}
+
+.note-dark {
+    color: white;
+    background-color: rgb(31, 98, 179);
+    /* background-color: rgb(1, 10, 138); */
+}
+
+.note-light {
+    background-color: rgb(185, 229, 247);
+}
+
+.highlighted {
+    /* padding: 10px 20px; */
+    color: #0fc;
+}
+</style>
+
+***
+
+<br>
+### A practical problem
+
+Suppose I've made something that runs perfectly on my computer,
+and I now want people to be able to use it.
+
+Now, a trivial approach to this can be - I upload the code online,
+and whoever interested can clone it, install dependencies,
+and run it on their system. Perfect, and simple enough.
+
+However, there are some issues with this.
+
+For example, wouldn't it be an overkill if it required people to
+download lots of library data just to perform simple operations?
+And, what if my code was OS-dependent, or perhaps I had something
+installed on my machine which other's didn't have!
+
+That would certainly freak them out, and I'd end up getting comments,
+not many of appreciation.
+
+<br>
+### Role of an API
+
+So, what if there was a "function" that lived online, and when called,
+did exactly what the user wanted.
+
+<p class="note note-light">
+    By API, I mean web APIs. There are various others as well,
+    but this will do for the general idea.
+</p>
+
+To exemplify, let's consider a super simple case.
+
+You got one simple app - it performs simple arithmetic ops on numbers. So, we're talking about
+a math API basically.
+Again, this could be anything else, like a function that just checks if your username
+follows a certain pattern or not. If that's too much for an example, we'll stick to our
+math API for now. But, believe me, creating one like that really is simple, once we get
+the idea of how things work.
+
+<br>
+### Structure of a (web) API
+
+Enough hard things. Let's talk something easy.
+
+We see websites with long, long URLs. But, they often tend to be readable and intuitive
+even for non-tech folks. For example, "https://twitter.com/settings/display" is informative
+enough to show that it is meant for your display settings. Plenty enough examples for
+you to think.
+
+Our API is also going to have a similar setup.
+
+#### Endpoints
+
+So, let's first decide where our function is going to live on the site.
+Let it be `http://mathapi.io/api/math/`. Again, `/api/math` is just a naming convention,
+and can be anything that makes sense.
+
+We now want to have several functions available at this location for the user
+to choose from. For simplicity, let them be - `/add`, `/subtract`, and `/exp`.
+
+In order to perform an addition, our user needs to access - 
+`http://mathapi.io/api/math/add`.
+
+<p class="note note-dark">
+    The places where functions "live", are called endpoints.
+    <br>
+    While developing a public API, all endpoints along with their precise purpose
+    and return values must be documented for technical precision.
+</p>
+
+#### Sending back output
+When the function runs it's logic, it needs to return the output back to
+who called it. Here, it's not as simple as just a return statement. But,
+it's not hard either.
+
+The standard output format is JSON. Easy to understand, and even easier to implement.
+
+<br>
+### Adding logic to endpoints
+
+For this, we require a programming language that can play around on
+the Internet. As it turns out, Python is the easiest
+to get started with.
+
+There are various Python frameworks, which facilitate such tasks. One of them is
+[Falcon](https://falconframework.org).
+
+Below is a code snippet that runs allows Falcon to create and add logic to
+endpoints.
+
+<br>
+`[ app.py ]`
+```
+import falcon
+from resources import (
+    AdditionResource,
+    SubtractionResource,
+    ExponentResource
+)
+
+api = falcon.API()
+
+api.add_route('/api/add', AdditionResource())
+api.add_route('/api/subtract', SubtractionResource())
+api.add_route('/api/exp', ExponentResource())
+
+```
+
+I won't go into framework-specific details, as it would easily
+straggle from the gist of the topic.
+However, that's all there is to creating routes!
+
+<p class="note note-light">
+Routes can be thought of as code-name of endpoints.
+</p>
+
+Still, the "...Resource( )" thing confuses us.
+These are the logic containing classes, that respond when the route
+corresponding to them is called.
+
+In the next file, called `resources.py`, we'll define what each
+resource is supposed to do on calling `/add`, `/subtract`, and `/exp`.
+
+<br>
+`[ resources.py ]`
+```
+
+class AdditionResource(object):
+    def on_get(self, req, resp):
+        one = int(req.params.get('a'))
+        two = int(req.params.get('b'))
+
+        result = one + two
+
+        resp.media = {
+            "result": result
+        }
+
+
+class SubtractionResource(object):
+    def on_get(self, req, resp):
+        one = int(req.params.get('a'))
+        two = int(req.params.get('b'))
+
+        result = one - two
+        resp.media = {
+            "result": result
+        }
+
+
+class ExponentResource(object):
+    def on_get(self, req, resp):
+        one = int(req.params.get('a'))
+        two = int(req.params.get('b'))
+
+        result = one ** two
+        resp.media = {
+            "result": result
+        }
+
+```
+
+I haven't yet cast light on how to pass arguments to our "function".
+The answer lies in the following syntax:
+<p class="note note-dark">
+http://mathapi.io/api/add<span class="highlighted">?a=20&b=40</span>
+</p>
+
+Here, `a` and `b` are query parameters, accessible in the code from
+`req.params.get` call. If you've worked in [Flask](http://flask.pocoo.org),
+the `flask.request.args.get` thing will fetch you the query parameters.
+
+So, `one = req.params.get('a')` stores whatever is passed as `a` (20, in above example),
+and makes an int out of it.
+
+Result is then processed as per the obvious logic, and a JSON is returned, 
+containing the result of the operation.
+
+Huh, long enough, but easy? Right!
+
+Adding more functionality to this small API is really more about
+knowing the framework used, rather than the concepts themselves.
+Of course there is a lot more to it, but that'd get real boring
+real fast.
+
+
+<br>
+### Random Notes
+
+Creating a web API isn't language dependent. Surely some languages do better than
+others on grounds of performance, but the structural part of it is basically open to all
+Internet-friendly programming languages.
+This is because requests and responses are based
+on the HTTP, which can vaguely be thought of as the language of the Internet.
+
+So, anything that can send and receive HTTP requests, can essentially be used for creating APIs.
+
+And oh, completely forgot - API stands for Application Programming Interface.
+
+{% if page.comments %}
+<div id="disqus_thread"></div>
+<script>
+var disqus_config = function () {
+this.page.url = "https://roshnet.github.io/2019/08/08/api-intro.html";
+this.page.identifier = "api-intro";
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://roshnet.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
