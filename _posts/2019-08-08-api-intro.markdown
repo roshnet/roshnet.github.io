@@ -2,7 +2,7 @@
 layout: post
 title:  "A super-quick intro to APIs"
 comments: true
-date:   2019-08-08
+date:   2019-08-08 22:21:08 +0530
 # categories: jekyll update
 ---
 
@@ -34,7 +34,7 @@ date:   2019-08-08
 ### A practical problem
 
 Suppose I've made something that runs perfectly on my computer,
-and I now want people to be able to use it.
+and it's time to use it as a service.
 
 Now, a trivial approach to this can be - I upload the code online,
 and whoever interested can clone it, install dependencies,
@@ -47,8 +47,8 @@ download lots of library data just to perform simple operations?
 And, what if my code was OS-dependent, or perhaps I had something
 installed on my machine which other's didn't have!
 
-That would certainly freak them out, and I'd end up getting comments,
-not many of appreciation.
+That would certainly freak them out, and I'd end up getting
+not many good comments.
 
 <br>
 ### Role of an API
@@ -104,7 +104,7 @@ In order to perform an addition, our user needs to access -
 #### Sending back output
 When the function runs it's logic, it needs to return the output back to
 who called it. Here, it's not as simple as just a return statement. But,
-it's not hard either.
+it's not hard either. It depends on the framework and the language you're using.
 
 The standard output format is JSON. Easy to understand, and even easier to implement.
 
@@ -221,8 +221,8 @@ real fast.
 ### Random Notes
 
 Creating a web API isn't language dependent. Surely some languages do better than
-others on grounds of performance, but the structural part of it is basically open to all
-Internet-friendly programming languages.
+others on grounds of performance and concurrency, but the structural part of it is
+basically open to all Internet-friendly programming languages.
 This is because requests and responses are based
 on the HTTP, which can vaguely be thought of as the language of the Internet.
 
