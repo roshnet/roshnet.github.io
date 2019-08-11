@@ -23,7 +23,7 @@ creating responsive UIs from scratch using media queries.
 
 I attempted [Google Summer of Code 2019](http://g.co/gsoc), but couldn't make it up to there.
 
-I, along with my college folks, had the privilege to code for the team "Narcodes", which finished as first runner up in the
+I, along with my college folks, had the privilege to code as the team "Narcodes", which finished as first runner up in the
 [Smart India Hackathon 2019](http://sih.gov.in) (software edition) held in Guwahati, India.
 
 I also got selected for an internship as a web developer in the [SSGSA Non-Profit Organisation](http://ssgsa.us).
