@@ -8,10 +8,13 @@ permalink: /about/
 I'm Roshan Sharma, pursuing engineering in Electronics, from Aligarh Muslim University, India.
 I love to work on software-based projects, anywhere from creating web APIs to playing with images.
 
-Motorsports - [MotoGP](https://motogp.com) and [Formula 1](https://formula1.com) - fuel me right up to the brim.
-Whenever encountered with a fatigue, those get me back up on the track.
+I am deeply interested in motorsports - [MotoGP](https://motogp.com) and [Formula 1](https://formula1.com).
 Videos like [this](https://www.youtube.com/watch?v=CLpb6k6afIM) get me working up when I think I'm done.
-Though I'm not a big fan of [Hamilton](https://twitter.com/LewisHamilton), I do play [F1 2013](https://www.youtube.com/watch?v=iuLvXypd7zg) whenever I feel the need for <s>speed</s> focus.
+Though I'm not a big Hamilton-fan, I do play [F1 2013](https://www.youtube.com/watch?v=iuLvXypd7zg) whenever
+I feel the need for <s>speed</s> focus.
+
+In my free time, I browse about industrial tech. Most of my time goes in looking for someone on StackOverflow
+I can help.
 
 
 ### Stuff I do
