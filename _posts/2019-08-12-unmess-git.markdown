@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Un-messing up Git problems"
-# comments: true
+comments: true
 date:   2019-08-12 20:43:11 +0530
 ---
 
