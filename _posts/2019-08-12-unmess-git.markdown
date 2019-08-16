@@ -103,11 +103,23 @@ Git/GitHub doesn't allow that. But that don't mean undoable.
 3. Write your own history now.
 
 
-### Notes
+# Problem 5
+Need to unstage changes / need to undo a `git add`
+
+## Solution
+Using editors like VS Code does make it more GUI, but you may need
+to do it via the command line.
+
+The answer - `git checkout <file>`, when you need to unstage that particular file.
+
+<br>
+
+# Notes
 
 This isn't a great list, but hope to add more such random problems as they
 come up.
-
+<br>
+<br>
 
 {% if page.comments %}
 <div id="disqus_thread"></div>
