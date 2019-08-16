@@ -104,13 +104,14 @@ Git/GitHub doesn't allow that. But that don't mean undoable.
 
 
 # Problem 5
-Need to unstage changes / need to undo a `git add`
+Need to reset chnages to just a file / don't want to stash everything just
+to reset one file
 
 ## Solution
 Using editors like VS Code does make it more GUI, but you may need
 to do it via the command line.
 
-The answer - `git checkout <file>`, when you need to unstage that particular file.
+The answer - `git checkout <file>`, when you need to reset all changes to that particular file.
 
 <br>
 
