@@ -8,12 +8,12 @@ date:   2019-08-12 20:43:11 +0530
 Using version control is relatively easy, but it can get real fucked up
 when you go off the general routine.
 
-Here, I surmise you know something about how things work in version
+So, I surmise you know some things about how things work in version
 control systems.
 
-So, below with good intentions, I mention some git issues I've ran into, and
+So, below with good intentions, I mention some git pitfalls I've ran into, and
 what measures I've taken to solve them.
-Of course there can be a lot more to this list, but it might come in handy.
+Of course there can be a lot more to this list, but this might come in handy.
 
 <br>
 
@@ -26,7 +26,7 @@ Of course there can be a lot more to this list, but it might come in handy.
 Need to remove last 'n' commits in a PR / committed additional changes and
 sent a PR already
 
-## Solution
+### _Solution_
 Pretty long commit history? Follow along.
 
 1. Switch to the branch from which the PR has been sent -
@@ -60,7 +60,7 @@ Pretty long commit history? Follow along.
 ## Problem 2
 Made a typo in the last commit message
 
-## Solution
+### _Solution_
 That's an easy one, and also the most likely to happen. Try typing slow the next
 time.
  
@@ -76,7 +76,7 @@ time.
 Badly messed up the master branch, and need to start over / master branch
 having issues I don't bother to know, but want it reset anyway
 
-## Solution
+### _Solution_
 Before you hit the fork button again, give it a read below.
 
 1. Checkout your master.
@@ -95,7 +95,7 @@ Before you hit the fork button again, give it a read below.
 ## Problem 4
 Cannot push a repository I cloned with `--depth=x`
 
-## Solution
+### _Solution_
 Git/GitHub doesn't allow that. But that don't mean undoable.
 
 1. `rf -rf .git`
@@ -103,15 +103,36 @@ Git/GitHub doesn't allow that. But that don't mean undoable.
 3. Write your own history now.
 
 
-# Problem 5
-Need to reset chnages to just a file / don't want to stash everything just
+## Problem 5
+Need to reset changes to just a file / don't want to stash everything just
 to reset one file
 
-## Solution
+### _Solution_
 Using editors like VS Code does make it more GUI, but you may need
 to do it via the command line.
 
 The answer - `git checkout <file>`, when you need to reset all changes to that particular file.
+
+
+## Problem 6
+Need to stage only "some" changes (not all) in a particular file / don't wanna "add" the whole
+file, rather "add" only some changes in it
+
+### _Solution_
+So you went with the flow of making changes, and later realised that you had to 
+follow atomic commits.
+The concept of interactive staging can prove handy here.
+
+Use `git add --patch <file>`, and follow what shows up next.
+There are many choices, and `y` and `n` alone did my job most of 
+the times. But, you may also want to use `e` and `s` for more control.
+
+`y` stages the visible change (hunk), and goes on to ask for the next change
+(top-down fashion). When done `add`ing changes for the commit, go for `n`.
+
+This basically allows you to stage only that specific change out of
+all changes in `<file>`. When that has been done, it's time to commit
+that small change with a nice little message.
 
 <br>
 
