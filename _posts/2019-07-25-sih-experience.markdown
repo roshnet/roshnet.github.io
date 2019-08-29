@@ -134,15 +134,9 @@ Ain't noboby in the bus . . .<br>
 <br>
 ![three-coders](/images/sih-2019/we-three.jpeg)
 
-
 <br>
 No smoking, please . . .<br>
 ![official-smoker](/images/sih-2019/smoking.jpeg)
-
-
-<br>
-Umm, [professional guy](https://github.com/Haider8) . . .
-![three-coders](/images/sih-2019/i-was-here.jpeg)
 
 <br>
 Code too hard - the aftermath . . .<br>
