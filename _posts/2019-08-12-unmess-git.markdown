@@ -134,6 +134,17 @@ This basically allows you to stage only that specific change out of
 all changes in `<file>`. When that has been done, it's time to commit
 that small change with a nice little message.
 
+
+## Problem 7
+Stuck in a rebase? Trust me, it's the last thing you need to do to get pinned down.
+
+### _Solution_
+The magic lies in `git rebase -abort`.
+
+You might already know this, but this is like getting a new life at times.
+Saved my life, might as well save yours :)
+
+
 <br>
 
 # Notes
