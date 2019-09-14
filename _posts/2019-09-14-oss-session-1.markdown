@@ -10,7 +10,7 @@ date:   2019-09-13 20:34:47 +0530
 <br>
 
 Last Wednesday, folks from the community got a chance to attend a session by
-Rahul Jha, a senior, and
+Rahul Jha, a senior, and a highly inspiring individual.
 
 The session was aimed at gaining deeper insights of the tech world, open source
 in particular.
