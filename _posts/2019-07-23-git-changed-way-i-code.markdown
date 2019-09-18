@@ -28,8 +28,6 @@ deliberately mess that up) of versions, and other seemingly magical things it di
 Next thing you know is there's a ".git" folder in all my projects.
 
 
-Thanks for the read ;)
-
 {% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
