@@ -5,14 +5,11 @@ comments: true
 date:   2019-08-12 20:43:11 +0530
 ---
 
-Using version control is relatively easy, but it can get real fucked up
-when you go off the general routine.
+Using version control is relatively easy, but it's easy to get entangled when you go off the general routine.
 
-So, I surmise you know some things about how things work in version
-control systems.
+So, I surmise some knowledge about how things work in version control systems.
 
-So, below with good intentions, I mention some git pitfalls I've ran into, and
-what measures I've taken to solve them.
+So, below with good intentions, I mention some git pitfalls I've ran into, and what measures I've taken to solve them.
 Of course there can be a lot more to this list, but this might come in handy.
 
 <br>
