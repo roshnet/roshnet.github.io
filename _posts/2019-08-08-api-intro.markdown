@@ -124,7 +124,7 @@ endpoints.
 
 <br>
 `[ app.py ]`
-```
+```py
 import falcon
 from resources import (
     AdditionResource,
@@ -157,7 +157,7 @@ resource is supposed to do on calling `/add`, `/subtract`, and `/exp`.
 
 <br>
 `[ resources.py ]`
-```
+```py
 
 class AdditionResource(object):
     def on_get(self, req, resp):
