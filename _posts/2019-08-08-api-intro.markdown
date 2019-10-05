@@ -47,8 +47,8 @@ download lots of library data just to perform simple operations?
 And, what if my code was OS-dependent, or perhaps I had something
 installed on my machine which other's didn't have!
 
-That would certainly freak them out, and I'd end up getting
-not many good comments.
+That would certainly freak them out, and I'd end up getting comments, not
+many of them good.
 
 <br>
 ### Role of an API
