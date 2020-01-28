@@ -5,13 +5,11 @@ permalink: /about/
 ---
 
 
-I'm Roshan Sharma, pursuing engineering in Electronics, from Aligarh Muslim University, India.
-I love to work on software-based projects, anywhere from creating web APIs to playing with images.
+Hi, I'm Roshan, a student pursuing Electronics engineering from Aligarh Muslim University, India.
+I'm excited about working on web-based projects, anywhere from creating web APIs to playing with images.
 
-I am deeply interested in motorsports - [MotoGP](https://motogp.com) and [Formula 1](https://formula1.com).
-Videos like [this](https://www.youtube.com/watch?v=CLpb6k6afIM) get me working up when I think I'm done.
-Though I'm not a big Hamilton-fan, I do play [F1 2013](https://www.youtube.com/watch?v=iuLvXypd7zg) whenever
-I feel the need for <s>speed</s> focus.
+I'm a [Heartfulness](https://heartfulness.org) practitioner, figuring my way out to learn how to meditate
+effectively.
 
 In my free time, I browse about industrial tech. Most of my time goes in looking for someone on StackOverflow
 I can help.
@@ -19,8 +17,11 @@ I can help.
 
 ### Stuff I do
 
-I mostly work in Python, however, plan to switch to JavaScript for the web in near future; owing to it's industrial approach in
+I work in Python, however, plan to switch to JavaScript for the web in near future; owing to it's industrial approach in
 getting things done.
+
+(EDIT): I'm working in Vue.js!
+
 I've done things from application backend development, to creating APIs for my personal projects, and
 creating responsive UIs from scratch using media queries.
 
@@ -45,6 +46,8 @@ If you happen to be a coder, make sure to [take a crack at it](https://github.co
 Besides, there are other not-so-big projects that I do just to commit mistakes,
 in order to get a solid understanding of the underlying concepts.
 
+Please check my work [here](https://github.com/roshnet).
+
 
 ### Plans for the future
 
@@ -56,19 +59,20 @@ to writing about it on this blog someday :)
 I'm growing interest in hardware programming and robotics, which made me order an
 [Arduino Uno](http://arduino.cc) the very next day I read about it.
 
-Also, the magics in [machine learning][ml-definition] and the mysteries of
-[deep learning][dl-definition] keep me occupied enough to think about anything else.
-Hope to get started after I complete the book [Neural Networks and Deep Learning][dl-book]
-by [Michael Nielsen](http://michaelnielsen.org/).
+I'm fascinated by the recent buildup in [machine learning][ml-definition], and
+[deep learning][dl-definition]. I started working my way through, until I got the
+feeling that ML/DL is definitely over rated. I am thus, continuing my pursuit of
+making applications for the web.
 
 
 ### Set a meeting up!
 
 I'd be glad if you offer me a coffee, and discuss ideas about code, aliens, and whatnot.
+Or, if you've got this crazy idea that no one wants to hear, do feel free to contact me.
 
 #### Reach out to me
 - [by mail](mailto:roshan@programmer.net)
-- [@auctifer on Twitter](https://twitter.com/auctifer) (btw, "auctifer" is "productive" in Latin.)
+- [@auctifer on Twitter](https://twitter.com/auctifer) (auctifer => "productive")
 - [another email](mailto:reprogram46@gmail.com)
 
 [blogstate]: https://blogstate.pythonanywhere.com
