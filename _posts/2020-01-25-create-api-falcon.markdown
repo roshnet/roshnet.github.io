@@ -7,7 +7,7 @@ date:   2020-01-25 16:07:43 +0530
 
 <style>
 /* Plain text formatting */
-p, li {color: #164669c2; font-size: 120%;}
+p, li {color: #164669c2; font-size: 110%;}
 h1, h2, h3, h4 {color: grey;}
 blockquote {font-family: monospace; font-size: 15px;}
 
