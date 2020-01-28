@@ -283,7 +283,8 @@ The *minumum* steps we need to perform are as follows:
 class)
 - add logic to check if supplied credentials are correct (assuming those are
 present)
-- return an appropriate response that tells the client
+- return an appropriate response that tells the client if credentials are
+correct
 - document the above behaviour if necessary.
 
 However, there are more possibilities. You can perform pre-processing on the
