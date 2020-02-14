@@ -12,7 +12,7 @@ We failed, and this post aims at finding possible points of failure.
 For a background, we were a team of three, each equally good in the required
 tech. Our aim was to build a web application to graphically provide insights
 to a student's performace in various areas of interest. The practical aim,
-however, targeted school students, thus measuring performace subject-wise.
+however, targeted school students, thus measuring performance subject-wise.
 
 We didn't have the slightest idea about our app - what shape will it take,
 how would the UI look, what architecture should we use, what the hell
