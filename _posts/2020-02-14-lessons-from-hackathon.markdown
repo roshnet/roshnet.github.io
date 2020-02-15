@@ -58,7 +58,7 @@ Be it either way, a lot of things were learnt in the process.
 Once you figure out "what" the app does, it becomes easy to figure out "how"
 will you make that happen.
 
-For somone who views your application, all that exists is the front end.
+For someone who views your application, all that exists is the front end.
 This perhaps implies that it's advisable to start with the front end, and
 subsequently add a suitable back end architecture.
 
@@ -84,7 +84,7 @@ go. Some of those skills would've been:
 
 Of course, there can be additions to this little list.
 
-To me, the idea of a leader implies does not imply someone who is more skilled
+To me, the idea of a leader does not imply someone who is more skilled
 than the rest of the team, but the one who is stable and well-versed enough to
 plan a path and motivate (or persuade, if needed) everyone else to follow it.
 
