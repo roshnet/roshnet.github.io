@@ -89,6 +89,7 @@ than the rest of the team, but the one who is stable and well-versed enough to
 plan a path and motivate (or persuade, if needed) everyone else to follow it.
 
 
+
 {% if page.comments %}
 <div id="disqus_thread"></div>
 <script>
