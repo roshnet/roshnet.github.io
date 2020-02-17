@@ -6,7 +6,11 @@ description: "how to think in a hackathon, strategy to follow at hackathons,
 become better at hackathons"
 date:   2020-02-14 01:47:48 +0530
 ---
-
+<style>
+p, li {color: #164669c2; font-size: 110%;}
+h1, h2, h3, h4 {color: grey;}
+blockquote {font-family: monospace; font-size: 15px;}
+</style>
 
 Recently, I had a chance to attend a hackathon.
 We failed, and this post aims at finding possible points of failure.
