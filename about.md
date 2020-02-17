@@ -20,7 +20,7 @@ I can help.
 I work in Python, however, plan to switch to JavaScript for the web in near future; owing to it's industrial approach in
 getting things done.
 
-(EDIT): I'm working in Vue.js!
+(EDIT): I'm working in Nuxt.js!
 
 I've done things from application backend development, to creating APIs for my personal projects, and
 creating responsive UIs from scratch using media queries.
@@ -30,7 +30,7 @@ I attempted [Google Summer of Code 2019](http://g.co/gsoc), but couldn't make it
 I, along with my college folks, had the privilege to code as the team "Narcodes", which finished as first runner up in the
 [Smart India Hackathon 2019](http://sih.gov.in) (software edition) held in Guwahati, India.
 
-I also got selected for an internship as a web developer in the [SSGSA Non-Profit Organisation](http://ssgsa.us).
+I also got selected as a web developer in the [SSGSA Non-Profit Organisation](http://ssgsa.us).
 
 
 ### Projects
@@ -67,8 +67,11 @@ making applications for the web.
 
 ### Set a meeting up!
 
-I'd be glad if you offer me a coffee, and discuss ideas about code, aliens, and whatnot.
-Or, if you've got this crazy idea that no one wants to hear, do feel free to contact me.
+I'd be glad if you offer me a coffee, and discuss ideas about code, zombies,
+and whatnot (I'm a big Resident Evil fan).
+
+Better, if you've got this crazy idea no one wants to hear about, you might
+wanna give me a try.
 
 #### Reach out to me
 - [by mail](mailto:roshan@programmer.net)
