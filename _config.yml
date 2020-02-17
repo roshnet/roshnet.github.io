@@ -16,7 +16,7 @@
 title: RoshSpace
 email: roshan@programmer.net
 description: # this means to ignore newlines until "baseurl:"
-  Hi, I'm Roshan. I learn new stuff, and create something wonderful
+  Hi, I'm Roshan. I learn new stuff, and strive to create something wonderful
   out of it.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

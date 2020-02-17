@@ -2,6 +2,8 @@
 layout: post
 title:  "Getting started with Falcon"
 comments: true
+description: "tutorial on rest api in python falcon, rest api in falcon python,
+get started with falcon python"
 date:   2020-01-25 16:07:43 +0530
 ---
 

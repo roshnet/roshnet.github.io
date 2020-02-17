@@ -2,6 +2,7 @@
 layout: post
 title:  "How Git changed the way I code"
 comments: true
+description: "messed up git, mess git, unmess git, clean git, solutions git"
 date:   2019-07-23 17:34:47 +0530
 # categories: jekyll update
 ---

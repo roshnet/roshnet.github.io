@@ -2,6 +2,8 @@
 layout: post
 title:  "Lessons from a hackathon"
 comments: true
+description: "how to think in a hackathon, strategy to follow at hackathons,
+become better at hackathons"
 date:   2020-02-14 01:47:48 +0530
 ---
 
