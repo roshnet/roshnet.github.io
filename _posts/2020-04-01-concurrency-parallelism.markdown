@@ -56,10 +56,9 @@ good as the approach with a simple for-if.
 Another example can be a web client which consumes a resource (say, an API)
 over the network, to display some content to the user. Here, concurrency would
 be the preferred choice, as you don't want your app to get stuck until the
-data is downloaded (JavaScript and Golang are good to work with those kind of
-tasks). Instead, a call to the API can be triggered, and the other processing
-can be done while the content downloads. The asynchronous operation being
-carried out in this case is a common example of concurrency.
+data is downloaded. Instead, a call to the API can be triggered, and the other
+processing can be done while the content downloads. The asynchronous operation
+being carried out in this case is a common example of concurrency.
 
 Also, in a way, using parallel processing might even jeopardize the CPU core
 being used for the network operation, as the server that hosts the API may
